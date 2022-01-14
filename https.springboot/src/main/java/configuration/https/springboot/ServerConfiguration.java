@@ -35,7 +35,6 @@ public class ServerConfiguration {
         connector.setPort(8086);
         connector.setSecure(false);
         connector.setRedirectPort(8082);
-        connector.setURIEncoding("www.google.com");
         return connector;
     }
 
