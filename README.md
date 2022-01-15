@@ -12,3 +12,15 @@
  keytool -list -keystore ssl-server.jks
  
  
+ To enable SSL or HTTPS for Spring Boot web application, 
+ puts the certificate file .p12 or .jks in the resources folder, and declares the server.ssl.* values in the application.properties
+ 
+ 
+ A thymeleaf page.--> index.html
+ 
+ https://localhost:8082/index
+ 
+https://localhost:8082/
+
+http://localhost:8086   -> this will route to https://localhost:8082/ 
+ 
